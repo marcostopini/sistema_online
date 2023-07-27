@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário cursos</title>
+    <title>Formulário turmas</title>
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/estilos.css" rel="stylesheet" />
 </head>
@@ -16,31 +16,41 @@
     </nav>
 
     <div class="form-buttons-container">
-        <form action="cursos.html" method="post">  
+        <form action="turmas.html" method="post">  
             <input type="submit" value="voltar" />    
         </form> 
     </div>
 
-    <h2>Cadastro de Novo Curso!</h2>
+    <h2>Cadastro de Nova Turma!</h2>
 
     <form action="" method="get">
+ 
         <div>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" placeholder="Nome" 
-                    required="true" maxlength="30" class="campo" />
-        </div>    
+            <label>Curso:</label>
+            <select id="cidade" name="cidade" class="campo">
+                <option></option>
+                <option value="1">Windows</option>
+                <option value="2">Excel</option>
+                <option value="3">Power BI</option>
+            </select>
+        </div>
 
         <div>
-            <label for="valor">Valor:</label>
-            <input type="number" id="valor" name="valor" placeholder="Valor" 
-                    required="true" maxlength="10" class="campo" />
-        </div>    
-
+            <label for="dataInicio">Data de início</label>
+            <input type="date" id="dataInicio" name="dataInicio" />
+        </div>  
+        
+        <div>
+            <label for="dataTermino">Data término</label>
+            <input type="date" id="dataTermino" name="dataTermino" />
+        </div>  
+        
         <div>
             <input type="submit" value="Ok" />
             <input type="reset" value="Limpar" />
         </div>
     </form> 
+  
 </body>
 <script src="js/bootstrap.js"></script>
 </html>

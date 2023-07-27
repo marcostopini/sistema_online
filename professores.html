@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professores</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/estilos.css" rel="stylesheet" /> 
 </head>
 <body>
@@ -14,6 +15,71 @@
         <a href="professores.html">Professores</a>
     </nav>
 
-    
+    <div class="form-buttons-container">
+        <form action="formulario_professor.html" method="post">               
+            <input type="submit" value="Novo Professor" class="btn btn-secondary" />    
+        </form>  
+
+        <form action="index.html" method="post">  
+            <input type="submit" value="voltar" class="btn btn-secondary" />    
+        </form> 
+    </div>    
+
+    <div class="container">
+
+        <div class="diferente">
+            <span>Relação de professores das turmas online</span>
+        </div>
+
+        <form action="exibir.html" method="post">
+        <table class="table table-striped">
+            <thead>
+                <tr class="cabecalho">
+                    <td>Nome</td>
+                    <td>Telefone</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Adriana Almeida Neves</td>
+                    <td>(21) 945673456</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+                <tr>
+                    <td>Luiz Paulo</td>
+                    <td>(21) 945237893</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+                <tr>
+                    <td>João Pedro da Silva</td>
+                    <td>(11) 945225798</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+                <tr>
+                    <td>Fabiana Campos</td>
+                    <td>(21) 937824578</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+                <tr>
+                    <td>Erika de Almeida Prado</td>
+                    <td>(21) 956724599</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+            </tbody>    
+        </table>
+        </form>
+    </div>    
 </body>
+<script src="js/bootstrap.js"></script>
 </html>

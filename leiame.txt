@@ -14,6 +14,8 @@ Professores => link para a página "professores.html"
 
 3) Página index.html
 
+---------------------------------------------------------------------------------------------
+
 4) Página cursos.html
 
 Deverá possuir um botão "Novo curso" que redirecionará para a página "formulario_curso.html".
@@ -22,13 +24,17 @@ Deverá possuir uma tabela com os títulos Nome e Valor.
 
 No final de cada linha deverá possuir um "botão" de alterar e outro de excluir.
 
+-------------------------------------------------------------------------------------------
+
 5) Página turmas.html
 Deverá possuir um botão "Nova turma" que redirecionará para a página "formulario_turma.html".
 
 Deverá possuir uma tabela com os títulos Nome do curso, data de início e data de término.
 
-
 No final de cada deverá possuir um "botão" de alterar e outro de excluir.
+
+-------------------------------------------------------------------------------------------
+
 
 6) Página alunos.html
 Deverá possuir um botão "Novo aluno" que redirecionará para a página "formulario_aluno.html".
@@ -36,6 +42,8 @@ Deverá possuir um botão "Novo aluno" que redirecionará para a página "formul
 Deverá possuir uma tabela com os títulos Nome, e-mail e telefone.
 
 No final de cada deverá possuir um "botão" de alterar e outro de excluir.
+
+-------------------------------------------------------------------------------------------
 
 
 7) Página professores.html
@@ -45,10 +53,14 @@ Deverá possuir uma tabela com os títulos Nome e telefone.
 
 No final de cada deverá possuir um "botão" de alterar e outro de excluir.
 
+-------------------------------------------------------------------------------------------
+
 8) Página formulario_curso.html
 Deverá ter botão "Voltar" que redirecionará para cursos.html
 Deverá possuir um formulário com os seguintes campos "Nome" e "Valor"
 Deverá possuir botão de Ok e outro Limpar
+
+-------------------------------------------------------------------------------------------
 
 9) Página formulario_turma.html
 
@@ -61,6 +73,8 @@ Deverá possuir um formulário com os campos:
 
 Deverá possuir botão de Ok e outro Limpar
 
+-------------------------------------------------------------------------------------------
+
 10) Página formulario_aluno.html
 
 Deverá ter botão "Voltar" que redirecionará para alunos.html
@@ -68,6 +82,8 @@ Deverá ter botão "Voltar" que redirecionará para alunos.html
 Deverá possuir um formulário com os seguintes campos: Nome, data de nascimento, endereço, e-mail e telefone
 
 Deverá possuir botão de Ok e outro Limpar
+
+-------------------------------------------------------------------------------------------
 
 11) Página formulario_professor.html
 

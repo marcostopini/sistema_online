@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alunos</title>
-    <link href="css/estilos.css" rel="stylesheet" /> 
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/estilos.css" rel="stylesheet" />
 </head>
 <body>
     <nav>
@@ -14,6 +15,77 @@
         <a href="professores.html">Professores</a>
     </nav>
 
-    
+    <div class="form-buttons-container">
+        <form action="formulario_aluno.html" method="post">               
+            <input type="submit" value="Novo Aluno" class="btn btn-secondary" />    
+        </form>  
+
+        <form action="index.html" method="post">  
+            <input type="submit" value="voltar" class="btn btn-secondary" />    
+        </form> 
+    </div>    
+
+    <div class="container">
+
+        <div class="diferente">
+            <span>Relação de alunos das turmas online</span>
+        </div>
+
+        <form action="exibir.html" method="post">
+        <table class="table table-striped">
+            <thead>
+                <tr class="cabecalho">
+                    <td>Nome</td>
+                    <td>E-mail</td>
+                    <td>Telefone</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Marcos Ventura Topini</td>
+                    <td>marcostopini@gmail.com</td>
+                    <td>(21) 983840154</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+                <tr>
+                    <td>João Paulo Figueiredo</td>
+                    <td>joaopaulo@gmail.com</td>
+                    <td>(21) 945674564</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+                <tr>
+                    <td>Mariana da Silva Nunes</td>
+                    <td>mariananunes@gmail.com</td>
+                    <td>(11) 986442988</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+                <tr>
+                    <td>Fabiana de Almeida Prada</td>
+                    <td>fabianaprada@gmail.com</td>
+                    <td>(21) 986745672</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+                <tr>
+                    <td>Paulo Roberto Campos</td>
+                    <td>paulocampos@hotmail.com</td>
+                    <td>(21) 987634567</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+            </tbody>    
+        </table>
+        </form>
+    </div>  
 </body>
+<script src="js/bootstrap.js"></script>
 </html>

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turmas</title>
-    <link href="css/estilos.css" rel="stylesheet" /> 
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/estilos.css" rel="stylesheet" />
 </head>
 <body>
     <nav>
@@ -13,7 +14,81 @@
         <a href="alunos.html">Alunos</a>
         <a href="professores.html">Professores</a>
     </nav>
-
     
+    <div class="form-buttons-container">
+        <form action="formulario_turma.html" method="post">               
+            <input type="submit" value="Nova Turma" class="btn btn-secondary" />    
+        </form>  
+
+        <form action="index.html" method="post">  
+            <input type="submit" value="voltar" class="btn btn-secondary" />    
+        </form> 
+    </div>    
+
+    <div class="container">
+
+        <div class="diferente">
+            <span>Turmas online em aberto</span>
+        </div>
+
+
+        <form action="exibir.html" method="post">
+        <table class="table table-striped">
+            <thead>
+                <tr class="cabecalho">
+                    <td>Nome do curso</td>
+                    <td>Data de início</td>
+                    <td>Data de término</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Escola de marketing de sucesso</td>
+                    <td>10/08/2023</td>
+                    <td>15/09/2024</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+                <tr>
+                    <td>Marketing sem segredos</td>
+                    <td>10/08/2023</td>
+                    <td>15/09/2024</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+                <tr>
+                    <td>Desenvolvimento WEB com python</td>
+                    <td>31/07/2023</td>
+                    <td>04/12/2023</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+                <tr>
+                    <td>Desenvolvimento Back-End com python</td>
+                    <td>31/07/2023</td>
+                    <td>04/12/2023</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+                <tr>
+                    <td>Engenharia de Software</td>
+                    <td>01/08/2023</td>
+                    <td>04/08/2024</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+            </tbody>    
+        </table>
+        </form>
+
+    </div>
+   
 </body>
+<script src="js/bootstrap.js"></script>
 </html>

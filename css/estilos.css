@@ -3,6 +3,7 @@ html, body{
     padding: 0;
 }
 
+
 p {
     text-align: center;
     text-justify: auto;
@@ -19,7 +20,7 @@ h1{
 
 h2{
     color: rgb(0,0,255);
-    text-align: right;
+    text-align: center;
     font-size: 20px;
     font-family: Geneva, Tahoma, Verdana, sans-serif;
     
