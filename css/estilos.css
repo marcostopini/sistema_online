@@ -1,0 +1,126 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+    text-justify: auto;
+    color: black;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+h1{
+    color: #165626;
+    font-size: 20px;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+h2{
+    color: rgb(0,0,255);
+    text-align: right;
+    font-size: 20px;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    
+}
+
+img{
+    height: 100px;
+    width: 200px;
+}
+
+a {
+    font-family: tahoma, verdana, sans-serif;
+    color: #1b9e38; 
+    text-decoration: none;   
+}
+
+a:visited{
+    color: #1b9e38;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: #FF0000;
+}
+
+nav{
+    text-align: left;
+}
+/* # para "id" */
+#em_construcao{
+    height: 200px;
+    width: 200px;
+}
+
+#titulo{
+    color: #FF0000
+}
+
+div{
+    margin-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* . para "class" */
+.campo{
+    width: 500px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+.coluna{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+
+.cabecalho{
+    font-weight: bold;
+}
+
+.diferente span {
+    color: #FF0000;
+}
+
+.destaque{
+    color: #ee00ff;
+}
+
+.destaque span{
+    color: #00FF00;
+    text-decoration: underline;
+}
+
+.containter{
+    background-color: #00FF00 !important;
+}
+
+.btn-primary{
+/*    --bs-btn-bg: #00FF00 !important; */
+    background-color: #00FF00 !important;
+    border-color: #00FF00 !important; 
+}
+
+.btn {
+    display: inline-block;
+  }
+
+.form-buttons-container {    
+    display: inline-flex;
+  }  

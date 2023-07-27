@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário cursos</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/estilos.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        <a href="cursos.html">Cursos</a>
+        <a href="turmas.html">Turmas</a>
+        <a href="alunos.html">Alunos</a>
+        <a href="professores.html">Professores</a>
+    </nav>
+
+    <div class="form-buttons-container">
+
+        <form action="index.html" method="post">               
+            <input type="submit" value="Início" />    
+        </form>  
+
+        <form action="cursos.html" method="post">  
+            <input type="submit" value="voltar" />    
+        </form> 
+
+    </div>
+
+    <div class="container">
+
+        <div class="diferente">
+            <span>Cursos na modalidade online</span>
+        </div>
+
+        <span>Esses são os cursos disponíveis</span>
+
+        <div class="diferente">
+            <span>Entre em contato contato</span>
+        </div>
+
+        <p class="destaque">Nosso novo telefone é <span>(21)3192-1939</span>. Horário comercial</p>
+
+        <form action="exibir_pacote.html" method="post">
+        <table class="table table-striped">
+            <thead>
+                <tr class="cabecalho">
+                    <td>Título</td>
+                    <td>Nome</td>
+                    <td>Valor</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Marketing</td>
+                    <td>Escola de marketing de sucesso</td>
+                    <td>R$ 1.500,00</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+                <tr>
+                    <td>Marketing</td>
+                    <td>Marketing sem segredos</td>
+                    <td>R$ 2.800,00</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+                <tr>
+                    <td>Informática</td>
+                    <td>Desenvolvimento WEB com python</td>
+                    <td>R$ 4.800,00</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+                <tr>
+                    <td>Informática</td>
+                    <td>Desenvolvimento Back-End com python</td>
+                    <td>R$ 5.500,00</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+                <tr>
+                    <td>Informática</td>
+                    <td>Engenharia de Software</td>
+                    <td>R$ 8.600,00</td>
+                    <td> <input type="submit" value="Alterar" class="btn btn-secondary" /> </td>
+                    <td> <input type="submit" value="Excluir" class="btn btn-secondary" /> </td>
+                </tr>
+
+            </tbody>    
+        </table>
+        </form>
+
+
+    </div>
+ 
+</body>
+<script src="js/bootstrap.js"></script>
+</html>
