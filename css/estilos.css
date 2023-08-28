@@ -26,10 +26,18 @@ h2{
     
 }
 
-img{
-    height: 100px;
-    width: 200px;
+.logo {
+    height: 60px;
+    width:  60px;
 }
+
+
+.imagem {
+    height: 200px;
+    width: 300px;
+}
+
+  
 
 a {
     font-family: tahoma, verdana, sans-serif;
@@ -49,10 +57,7 @@ a:active{
     color: #FF0000;
 }
 
-nav{
-    text-align: left;
-}
-/* # para "id" */
+
 #em_construcao{
     height: 200px;
     width: 200px;
@@ -76,6 +81,7 @@ div{
 * {
     box-sizing: border-box;
   }
+
 .coluna{
     width: 50%;
     float: left;
@@ -118,10 +124,20 @@ div{
     border-color: #00FF00 !important; 
 }
 
-.btn {
-    display: inline-block;
-  }
+.btn-secondary{
+    align-items: center; 
+}
 
-.form-buttons-container {    
-    display: inline-flex;
-  }  
+
+.col-sm-3{
+    font-size: 6px;
+}
+
+.col-xl-3 {
+    font-size: 20px;
+}
+
+.alerta {
+    max-width: 90% !important;
+    top: 20% !important;
+}
