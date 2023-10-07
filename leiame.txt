@@ -92,3 +92,15 @@ Deverá ter botão "Voltar" que redirecionará para professores.html
 Deverá possuir um formulário com os seguintes campos: Nome, e-mail e telefone
 
 Deverá possuir botão de Ok e outro Limpar
+
+---------------------------------------------------------------------------------------------------------
+
+Faça o menu responsivo do projeto
+
+
+Em todas as telas deverão possuir o seguinte menu responsivo:
+
+Cursos => link para a página "cursos.html"
+Turmas => link para a página "turmas.html"
+Alunos => link para a página "alunos.html"
+Professores => link para a página "professores.html"
