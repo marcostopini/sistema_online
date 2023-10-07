@@ -118,11 +118,13 @@ div{
     background-color: #00FF00 !important;
 }
 
+/*
 .btn-primary{
-/*    --bs-btn-bg: #00FF00 !important; */
+/*    --bs-btn-bg: #00FF00 !important;
     background-color: #00FF00 !important;
     border-color: #00FF00 !important; 
 }
+*/
 
 .btn-secondary{
     align-items: center; 
